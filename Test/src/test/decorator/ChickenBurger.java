@@ -1,0 +1,14 @@
+package test.decorator;
+
+public class ChickenBurger extends Humburger{
+	
+	public ChickenBurger() {
+		name ="º¶Õ»±§";
+	}
+
+	@Override
+	public double getPrice() {
+		return 10;
+	}
+
+}
